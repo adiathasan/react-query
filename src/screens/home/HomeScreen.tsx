@@ -3,9 +3,8 @@ import './homeScreen.css';
 
 const HomeScreen = () => {
 	return (
-		<div>
-			<h1>blah</h1>
-			<h1>ba=lah</h1>
+		<div className='home'>
+			<h1>Home Of Star Wars</h1>
 		</div>
 	);
 };

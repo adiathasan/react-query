@@ -1,0 +1,21 @@
+.wrapper h1 {
+	font-size: 1.5rem;
+}
+
+.card {
+	width: 100%;
+	padding: 0.3rem;
+	border-radius: 6px;
+	background-color: #0f0d0d7e;
+	margin: 0.5rem auto;
+}
+
+.card > h3 {
+	font-size: 0.9rem;
+	color: var(--primary);
+}
+
+.card > p {
+	color: paleturquoise;
+	font-size: 0.9rem;
+}

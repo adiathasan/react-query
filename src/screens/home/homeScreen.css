@@ -1,0 +1,24 @@
+.home {
+	text-align: center;
+	animation: wars-float 2.5s linear infinite alternate;
+}
+
+@keyframes wars-float {
+	0%,
+	100% {
+		opacity: 0.3;
+		transform: translateY(10px);
+		color: #ff4400;
+	}
+
+	50% {
+		opacity: 1;
+		transform: translateY(20px);
+		color: var(--primary);
+	}
+
+	51% {
+		opacity: 1;
+		border: none;
+	}
+}

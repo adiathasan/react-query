@@ -1,12 +1,9 @@
-:root {
-	--primary: #ffbb00;
-}
-
 .navbar {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 	border-bottom: 1px solid rgba(255, 255, 255, 0.459);
+	flex-wrap: wrap;
 }
 
 .navbar > ul {
@@ -27,6 +24,10 @@
 
 .navbar > ul > li > a:hover {
 	background-color: #face7d23;
+	border: 1px solid #ffffff;
+}
+
+.navbar ul .active {
 	border: 1px solid #ffffff;
 }
 
