@@ -1,0 +1,35 @@
+:root {
+	--primary: #ffbb00;
+}
+
+.navbar {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.459);
+}
+
+.navbar > ul {
+	display: flex;
+	align-items: center;
+}
+
+.navbar > ul :first-child {
+	margin-right: 1rem;
+}
+
+.navbar > ul > li > a {
+	transition: all 0.3s ease-in;
+	padding: 0.4rem 0.5rem;
+	border: 1px solid var(--primary);
+	border-radius: 6px;
+}
+
+.navbar > ul > li > a:hover {
+	background-color: #face7d23;
+	border: 1px solid #ffffff;
+}
+
+.active {
+	color: var(--primary);
+}
