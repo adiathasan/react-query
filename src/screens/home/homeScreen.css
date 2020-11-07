@@ -1,6 +1,6 @@
 .home {
 	text-align: center;
-	animation: wars-float 2.5s linear infinite alternate;
+	animation: wars-float 1.5s linear infinite alternate;
 }
 
 @keyframes wars-float {

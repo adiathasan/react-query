@@ -9,7 +9,10 @@ const fetchPlanets = async () => {
 };
 
 const PlanetsScreen = () => {
-	const { data, status } = useQuery('planates', fetchPlanets);
+	const { data, status } = useQuery('planates', fetchPlanets, {
+		staleTime: 0,
+		cacheTime: 10,
+	});
 
 	return status === 'loading' ? (
 		<Loader />
